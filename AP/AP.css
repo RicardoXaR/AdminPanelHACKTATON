@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-image: url(images/APBG.jpeg);
+    background-size: auto;
+    /* position: relative; */
+    display: flex;
+
+}
+
+#menu{
+    padding: 10px 30px;
+    background: #59B8FC;
+    width: fit-content;
+    width: 258px;
+    height: 3000px;
+}
+
+.items li button {
+    padding: 10px 10px;
+    background-color: #C1E1FF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 600;
+    font-stretch: expanded;
+}
+
+.logo img{
+    width: auto;
+    height: 164px;
+}
+
+.items li button img {
+    width: 20px;
+    height: auto;
+}
+
+#menu .items .robot img{
+    position: absolute;
+    left: 0.5%;
+    bottom: 1%;
+}
+
+#menu .items{
+    margin-top: 40px;
+}
+
+#menu .items li{
+    list-style: none;
+    padding: 15px 0;
+}
+
+#menu .items button:hover{
+    background: #c1e1ff89;
+    cursor: pointer;
+}
+
+/* #interface{
+    width: calc(100% - 300px);
+} */
+
+#interface .profile img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#interface .profile button{
+    border: none;
+    cursor: pointer;
+}
+
+#interface .profile {
+    background-color: #C1E1FF;
+}
+
+#interface .profile {
+    position: relative;
+    padding-left: 88%;
+}
+
+.board .Detail img{
+    width: auto;
+    height: 50px;
+    display: block;
+    padding: 5px;
+}
+
+.board h5{
+    font-size: larger;
+    color: #C1E1FF;
+    font-size: 5ch;
+}
+
+.board .editremove .satu a img{
+    width: auto;
+    height: 50px;
+}
+
+.board table thead td{
+    color: #C1E1FF;
+    text-align: left;
+    font-size: 5ch;
+    font-weight: 600;
+}
