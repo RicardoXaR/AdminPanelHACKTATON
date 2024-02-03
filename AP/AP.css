@@ -115,3 +115,21 @@ body{
     font-size: 5ch;
     font-weight: 600;
 }
+
+.board {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.Detail img:hover{
+    background-color: white;
+}
+
+.editremove .edit:hover{
+    background-color: gray;
+}
+
+.editremove .Remove:hover{
+    background-image: url(images/Remove2.png);
+    background-color: red;
+}
